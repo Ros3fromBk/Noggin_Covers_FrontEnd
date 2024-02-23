@@ -1,0 +1,59 @@
+
+.Navbar {
+  background: green;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border-bottom: solid 2px red;
+  text-align: center;
+} 
+.Navbar section {
+border-bottom: solid 1px black;
+}
+.Nav-main{
+  background: aquamarine;
+}
+
+.Nav-body{
+  background: aqua;
+display: flex;
+height: 35px;
+}
+ p{
+ border-radius: 50px;
+
+font-size: 20px ;
+font-weight: 200;
+}
+
+
+p:hover {
+  background-color: lightgreen;
+}
+@media (max-width: 500px ) {
+  p{
+      border: 2px solid rgba(255, 217, 0, 0.518);
+      width: 35%;
+      height: 30px;
+      margin: 0px;
+      padding: 0px;
+      background-color: bisque;
+      color: black;
+  }
+}
+
+@media (min-width: 501px ) {
+  p{
+      /* box-sizing:content-box ;  */
+      border: 2px solid rgba(255, 217, 0, 0.518);
+      width: 35%;
+      height: 30px;
+      margin: 0px;
+      padding: 0px;
+      /* display: grid; */
+      /* grid-template-columns:  100%  ; */
+      /* grid-template-rows: 50% 50% ; */
+      background-color: rgb(92, 152, 205);
+      color: black;
+  }
+}
